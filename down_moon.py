@@ -24,8 +24,8 @@ def shut_down(s):
 		
 train_num = 13000
 test_num = 16000
-data = pd.read_csv('allplus3R.csv', header=0)
-tdata1 = pd.read_csv('test2.csv', header=0)
+data = pd.read_csv('allplus3R_moon.csv', header=0)
+tdata1 = pd.read_csv('test2_moon.csv', header=0)
 
 X= data.values[0:, 1:]  
 y= data.values[0:,0]
