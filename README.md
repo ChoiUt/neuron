@@ -11,5 +11,5 @@ python:
 (1) down.py: pac, svm
 (2) print.py: for printing the data
 
-figure_2.png:
+figure.png:
 print.py outcome
