@@ -1,4 +1,3 @@
-
 import pandas as pd
 from sklearn.decomposition import PCA
 from sklearn import svm
@@ -47,7 +46,6 @@ test_x = pca.transform(test_data)
 test_td = pca.transform(tdata)
 
 #svm方法
-
 clf = svm.SVC(kernel = 'rbf',C = 10)
 clf.fit(train_x,train_label)
 
