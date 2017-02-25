@@ -429,7 +429,7 @@ void Cdemo_MFCDlg::OnBnClickedButtonTcpConnection()
 void Cdemo_MFCDlg::UpdateBvhDataShowUI()
 {
     CString BoneID;
-    m_wndComBoxBone.ResetContent();		//重置列表框里的内容
+    m_wndComBoxBone.ResetContent();		//脰脴脰脙脕脨卤铆驴貌脌茂碌脛脛脷脠脻
     for ( int i = 0; i < BVHBoneCount; i++ )
     {
         BoneID.Format( L"%s%d", L"Bone", i );
