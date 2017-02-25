@@ -1,4 +1,4 @@
-# neuron
+# neuron project by moon
 csv file:
 (1) allplus3R.csv: used to trainning data
 (2) test2.csv: used to predict outcome
